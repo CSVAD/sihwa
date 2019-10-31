@@ -1,0 +1,12 @@
+## Week 6 Reflection
+
+When I worked in LG Electronics as a UX design researcher, I participated in a project that tries to suggest a new multimodal interaction for smart TVs. To briefly explain, it was a combination of gesture and voice control and interaction for using and navigating TV functionalities and content. During the user tests based on the Wizard of Oz prototype method, subjects were surprised at the beginning because a TV talks and listens to them, but as they got familiar with this situation, they began to explore what they can do with voice commands, and finally, started to focus on finding TV content they were interested in or based on a task given by us. What my team concerned in creating a novel interaction in a specific domain was how we could form a proper and effective mental model for the new interaction in users' minds.
+
+As Alan Kay pointed out in his article, considering human cognitive facilities in learning something new is significant in designing interaction and interfaces. As GUI, or WIMP interface/interaction has been pervasive in screen-based interfaces, we always expect visual elements like buttons, menus, popups, toolboxes, and windows in our mindsets which were not existed when we only used CLI (command-line interfaces). 
+
+The concept of direct manipulation also took post-WIMP UIs to the next level with the emergent of touch-screen based smart devices. Especially, multi-touch based gestural interaction was considered as one of the successful design aspects that made the popular use of smartphones at the beginning along with the Skeuomorphism design concept.
+
+Since the emergent of body gestural interfaces/sensors like Kinect and voice assistant interface like Siri, Natural User Interaction/Interfaces has been considered as the next generation of post-WIMP UIs and GUIs. Since the pioneering interaction of NUI, "[Put-That-There](https://www.youtube.com/watch?v=CbIn8p4_4CQ)", it is still evolving and trying to find the best place for users that can be 'naturally' used in daily lives. The next generation would be more familiar with the use of gesture/voice control interface and AI-supported ubiquitous/calm technology, as they would be naturally exposed in an environment in which his/her parents use the interfaces like "Amazon Echo", "Siri", or AR/VR devices. 
+
+For programmers or digital artists, it will be a new opportunity to explore and create a novel interface and interaction that can support our creativity.
+
