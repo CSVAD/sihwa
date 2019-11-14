@@ -12,13 +12,19 @@ Project link: https://sihwapark.com/ARLooper
 
 The goals for the final project would be considered as below :
 
-- Updating sound visualization
+- Updating sound visualization<sup>**</sup> 
   - Visualizing and coloring according to the frequency spectrum of sound (as I did in the Sound Brush Library project)
   - Making the animation of a waveform while it is playing
     - A visual indicator showing a current playback position
     - Visualizing who is playing the waveform
-    - Responding to the change of the parameters of sound filters/effects.
-- Improving UI
+    - Responding to the change of the parameters of sound filters/effects
+- New drawing mode<sup>**</sup> 
+  - Current: each vertex in drawing a 3D waveform is only relyong a device's position in a space
+    - Problem: if there is no movement, the waveform ovelaps in the same position
+  - New: drawing reflecting movement and time changes
+    - if the user moves the device, it draws a waveform along with the movement path
+    - if not, it pushes the vertices of the current waveform outward (along z-axis) and draws the new vertex foremost to the screen
+- Improving UI <sup>*,**</sup> 
   - GUIs for controlling the parameters used in the sound visualization
   - Improving the current sound control GUI
     - Feature for organizing the order of sliders
@@ -27,3 +33,18 @@ The goals for the final project would be considered as below :
       - Showing a playback position
     - (Optional)Sequencing the changes of sound parameters
   - Improving/adding multi-touch gesture interaction
+- Saving/Loading audio and visual contents<sup>*</sup> 
+  - Saving
+    - Audio files
+    - 3D waveforms
+    - [AR WorldMap](https://developer.apple.com/documentation/arkit/arworldmap) data which is used by iOS ARKit
+  - Loading
+    - Showing a list of saved A/V contents along with the WorldMap data
+    - Showing a image as a frame of reference to sync/match with a select WorldMap
+    - Placing AR waveforms at locations where they are created
+
+
+
+\* Primary implementation challenges
+
+** Primary design challenges
